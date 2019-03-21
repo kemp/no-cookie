@@ -1,0 +1,29 @@
+{
+  "name": "no-cookie-docs",
+  "version": "0.1.0",
+  "description": "Docs for No-Cookie",
+  "main": "index.js",
+  "repository": "https://github.com/rockhopper72/no-cookie/docs",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "https://github.com/rockhopper72",
+  "license": "MIT",
+  "dependencies": {
+    "laravel-mix": "^4.0.15"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.17.3",
+    "sass-loader": "7.*",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

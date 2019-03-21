@@ -1,0 +1,12 @@
+{
+  "name": "no-cookie",
+  "version": "0.1.0",
+  "description": "A satire HTML snippet to inform users that a page does not use cookies",
+  "repository": "https://github.com/rockhopper72/no-cookie",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/rockhopper72",
+  "license": "MIT"
+}
