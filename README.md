@@ -11,7 +11,7 @@ Introducing `no-cookie`! This package allows you to add a consent banner to any 
 To use `no-cookie`, first install it using NPM:
 
 ```bash
-npm install co-cookie --save
+npm install no-cookie
 ```
 
 Then, include it in your Javascript:
