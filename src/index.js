@@ -6,7 +6,7 @@ module.exports = {
 
         cookieDiv.id = 'no-cookie';
         cookieDiv.innerHTML = `
-            <span><strong>Notice:</strong> This site makes no use of cookies. By continued use of our website, you conset to the neglect of cookies. <label class="accept" for="no-cookie-close">Accept and Continue</label></span>
+            <span><strong>Notice:</strong> This site makes no use of cookies. By continued use of our website, you consent to the neglect of cookies. <label class="accept" for="no-cookie-close">Accept and Continue</label></span>
             <label for="no-cookie-close" aria-label="Close No-Cookie Consent Banner" style="cursor: pointer; float: right;">&times;</span>
         `;
 
